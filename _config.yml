@@ -15,10 +15,10 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: ominiv
+  tagline: Data Analyst
   date_format: "%b %-d, %Y"
-  style: black
+  style: green
   showNav: false
   showPicker: true
 
