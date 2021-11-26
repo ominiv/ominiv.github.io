@@ -19,9 +19,13 @@ texture:
   tagline: Data Analyst
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
+  showNav: true
   showPicker: false
-
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
   # generate social links in footer
   social_links:
     twitter: thelehhman
