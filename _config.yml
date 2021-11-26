@@ -1,5 +1,5 @@
-title: Texture Theme
-author: GitHub User
+title: ominiv-Blog
+author: ominiv
 email: ominiv1014@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -21,11 +21,6 @@ texture:
   style: black
   showNav: true
   showPicker: false
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
   # generate social links in footer
   social_links:
     twitter: thelehhman
