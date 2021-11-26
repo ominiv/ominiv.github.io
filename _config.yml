@@ -1,6 +1,6 @@
 title: Texture Theme
 author: GitHub User
-email: your-email@domain.com
+email: ominiv1014@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -18,9 +18,9 @@ texture:
   title: ominiv
   tagline: Data Analyst
   date_format: "%b %-d, %Y"
-  style: green
+  style: black
   showNav: false
-  showPicker: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
