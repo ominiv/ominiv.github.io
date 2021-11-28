@@ -2,7 +2,7 @@
 layout: post
 title:  "새로운 시작"
 date:   2021-11-28 19:31:29 +0900
-categories: 끄적임
+categories: Daily
 ---
 
 평소에 알아간 정보를 다 정리해보자. 
