@@ -2,7 +2,7 @@
 layout: post
 title: [Django] preview
 date: 2021-11-28 19:20:23 +0900
-category: Django
+category: R
 ---
 # WEB Programming
 
