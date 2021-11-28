@@ -1,9 +1,10 @@
 ---
 layout: post
-title: [Django] preview
+title: "[Django] preview"
 date: 2021-11-28 19:20:23 +0900
 category: Django
 ---
+
 # WEB Programming
 
 web이란? 흔한 웹사이트를 의미한다.  (ex, 네이버, 구글)

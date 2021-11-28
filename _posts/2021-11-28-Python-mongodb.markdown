@@ -1,9 +1,10 @@
 ---
 layout: post
-title: [Python] mongodb
-date: 2021-11-28 19:20:23 +0900
-category: Python
+title:  "[Python] mongodb"
+date:   2021-11-28 19:31:29 +0900
+categories: Python
 ---
+
 # mongodb
 
 Mongo DB 는 NoSQL 중 하나로 Document Oriented 데이터 베이스이다.

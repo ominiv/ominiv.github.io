@@ -1,9 +1,10 @@
 ---
 layout: post
-title: [Python] Anaconda
+title: "[Python] Anaconda"
 date: 2021-11-28 19:20:23 +0900
 category: Python
 ---
+
 # Anaconda 란?
 
 기본적으로 파이썬 뿐만아니라 머신러닝을 위한 math, science 관련 패키지, 쥬피터 노트북까지 함께 설치됨
