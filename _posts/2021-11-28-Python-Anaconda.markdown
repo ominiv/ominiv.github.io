@@ -118,6 +118,3 @@ conda env remove -n tensorEnv
 + 가상환경에 jupyter notebook 설치
   (tensorEnv) C:\WINDOWS\system32> conda install jupyter notebook
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

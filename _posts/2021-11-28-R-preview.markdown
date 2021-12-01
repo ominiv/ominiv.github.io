@@ -215,8 +215,3 @@ geo_code <- enc2utf8('대전역') %>% geocode()
 R : https://www.r-project.org/
 
 R studio: https://www.rstudio.com/
-
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
