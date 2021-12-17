@@ -1,5 +1,5 @@
 ---
-title: Input vs. sys.stdin.readline 차이점
+title: Input vs. sys.stdin.readline
 date: 2021-12-16 23:30:09
 categories:
 - Python
