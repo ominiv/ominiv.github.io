@@ -1,6 +1,6 @@
 ---
 title: HackerRank/Oracle Occupations
-date: 2021-12-17 23:30:09
+date: 2021-12-16 23:30:09
 categories:
 - CodingTest
 tags:
