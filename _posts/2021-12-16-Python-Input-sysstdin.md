@@ -1,5 +1,5 @@
 ---
-title: Input vs. sys.stdin.readline
+title: Input vs sys.stdin.readline
 date: 2021-12-16 23:30:09
 categories:
 - Python
@@ -76,4 +76,8 @@ https://docs.python.org/3.10/library/sys.html#sys.stdin
 https://green-leaves-tree.tistory.com/12
 
 https://countingalaxy.tistory.com/entry/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%9E%85%EB%A0%A5%EA%B3%BC-%EC%B6%9C%EB%A0%A5
+
+
+
+
 
