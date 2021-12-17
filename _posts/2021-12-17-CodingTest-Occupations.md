@@ -1,16 +1,11 @@
 ---
 title: HackerRank/Oracle Occupations
-date: 2021-12-17 12:30:09
+date: 2021-12-17 23:30:09
 categories:
 - CodingTest
 tags:
-- Oracle
-- DECODE
+- oracle
 ---
-
-
-
-
 
 # [HackerRank/Oracle] Occupations
 
