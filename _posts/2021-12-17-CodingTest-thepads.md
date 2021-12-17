@@ -1,6 +1,6 @@
 ---
 title: HackerRank/Oracle The PADs
-date: 2021-12-15 23:30:09
+date: 2021-12-17 15:30:09
 categories:
 - CodingTest
 tags:
@@ -17,7 +17,7 @@ tags:
 
 
 
-오라클에서는 문자 합칠때  || ,  CONCAT을 사용할 수 있다.
+오라클에서는 문자 합칠때  [||] ,[CONCAT]을 사용할 수 있다.
 
 두 가지에 대해 알아보자.
 
