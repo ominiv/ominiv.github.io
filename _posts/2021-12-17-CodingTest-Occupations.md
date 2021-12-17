@@ -15,6 +15,8 @@ tags:
 
 occupation 열을 pivot하는 문제다. 
 
+
+
 ## 1. DECODE/MIN 이용
 
 DECODE함수는 프로그래밍에서의 if else 와 비슷한 기능을 수행함
@@ -22,16 +24,7 @@ DECODE함수는 프로그래밍에서의 if else 와 비슷한 기능을 수행�
 `DECODE(컬럽, 조건1, 결과1, 조건2, 결과2)`
 
 ```sql
-SELECT  MIN(DECODE(OCCUPATION, 'Doctor',NAME)) Doctor,
-        MIN(DECODE(OCCUPATION, 'Professor',NAME)) Professor,
-        MIN(DECODE(OCCUPATION, 'Singer',NAME)) Singer,
-        MIN(DECODE(OCCUPATION, 'Actor',NAME)) Actor
-FROM    (
-        SELECT OCCUPATION, NAME, ROW_NUMBER() OVER(PARTITION BY OCCUPATION ORDER BY NAME) RN
-        FROM OCCUPATIONS
-        )
-GROUP BY RN
-ORDER BY 1,2,3,4;
+
 ```
 
 
@@ -43,18 +36,7 @@ ORDER BY 1,2,3,4;
 Oracle 11g 이상 버전의 경우 PIVOT함수를 사용 할 수있음
 
 ```sql
-SELECT  Doctor, Professor, Singer, Actor 
-FROM (
-    SELECT OCCUPATION, NAME, ROW_NUMBER() OVER(PARTITION BY OCCUPATION ORDER BY NAME)RN
-    FROM OCCUPATIONS
-)
-PIVOT(
-    MIN(NAME) FOR OCCUPATION IN ('Doctor' AS Doctor
-                                 ,'Professor' AS Professor
-                                 ,'Singer' AS Singer
-                                 , 'Actor' AS Actor )
-)
-ORDER BY 1,2,3,4;
+
 ```
 
 
