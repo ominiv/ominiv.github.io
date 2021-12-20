@@ -1,6 +1,6 @@
 ---
 title: HackerRank/Oracle New Companies
-date: 2021-12-20 23:30:09
+date: 2021-12-19 23:30:09
 categories:
 - CodingTest
 tags:
