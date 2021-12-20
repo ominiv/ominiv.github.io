@@ -12,13 +12,13 @@ tags:
 
 📌[문제링크](https://www.hackerrank.com/challenges/the-company/problem) [풀이참고](https://techblog-history-younghunjo1.tistory.com/163) 
 
-
+  
 
 *풀이 참고 링크에 들어가셔서 보시면 됩니다. 
 
 join을 활용하는 문제다.
 
-
+  
 
 ## 1. INNER JOIN 이용
 

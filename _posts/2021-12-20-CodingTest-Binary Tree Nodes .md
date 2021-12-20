@@ -11,13 +11,13 @@ tags:
 
 📌[문제링크](https://www.hackerrank.com/challenges/binary-search-tree-1/problem) [풀이참고](https://yurimyurim.tistory.com/15) 
 
-
+  
 
 *풀이 참고 링크에 들어가셔서 보시면 됩니다. 
 
 이진 트리의 노드 유형을 찾는 쿼리를 작성하는 문제다. 
 
-
+  
 
 ## 1. Oracle 내장함수
 
@@ -52,7 +52,7 @@ CONNECT BY PRIOR N=P
 ORDER BY N;
 ```
 
-
+  
 
 
 
@@ -69,7 +69,7 @@ FROM BST
 ORDER BY N;
 ```
 
-
+  
 
 ## 3. 결과
 
