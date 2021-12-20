@@ -14,9 +14,7 @@ tags:
 
   
 
-*풀이 참고 링크에 들어가셔서 보시면 됩니다. 
-
-join을 활용하는 문제다.
+*풀이 참고 링크에 들어가셔서 보시면 됩니다.   join을 활용하는 문제다.
 
   
 
@@ -56,9 +54,7 @@ INNER JOIN(
 ORDER BY company.COMPANY_CODE;
 ```
 
-
-
-
+  
 
 ## 2. 다른 풀이
 
@@ -77,7 +73,7 @@ GROUP BY C.COMPANY_CODE, C.FOUNDER
 ORDER BY C.COMPANY_CODE;
 ```
 
-
+  
 
 ## 3. 결과
 
