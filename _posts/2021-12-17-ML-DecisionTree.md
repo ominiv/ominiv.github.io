@@ -1,6 +1,6 @@
 ---
 title: ML DecisionTree 
-date: 2021-12-16 23:30:09
+date: 2021-12-17 15:30:09
 categories:
 - ML
 tags:
@@ -109,8 +109,9 @@ graphviz.Source(dot_graph)
 
 
 
-## 4. [실습] 
+## 4. 실습
 
 UCI Machine learning Repository 에서 제공하는 Human Acitivity Recognition Dataset 활용
 
-https://github.com/ominiv/Practice_ML/blob/master/UCI_Human_activity_dataset_DecisionTree.ipynb
+https://github.com/ominiv/Practice_ML/blob/master/UCI_Human_activity_dataset.ipynb
+
