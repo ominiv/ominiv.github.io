@@ -1,5 +1,5 @@
 ---
-title: Python/피사노주기 2749 피보나치 3
+title: Python/피사노주기 BOJ-2749 피보나치 3
 date: 2021-12-21 23:30:09
 categories:
 - CodingTest
@@ -7,7 +7,7 @@ tags:
 - 피사노주기
 ---
 
-# [Python/피사노주기] 2749 피보나치 3
+# [Python/피사노주기] BOJ-2749 피보나치 3
 
 📌[문제링크](https://www.acmicpc.net/problem/2749) [풀이참고](https://kyun2da.github.io/2020/08/30/fibonacci/)
 

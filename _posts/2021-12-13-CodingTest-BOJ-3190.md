@@ -1,5 +1,5 @@
 ---
-title: Python/구현 3190 뱀
+title: Python/구현 BOJ-3190 뱀
 date: 2021-12-13 23:30:09
 categories:
 - CodingTest
@@ -7,7 +7,7 @@ tags:
 - 구현
 ---
 
-# [Python/구현] 3190 뱀
+# [Python/구현] BOJ-3190 뱀
 
 📌[문제링크](https://www.acmicpc.net/problem/3190) [풀이참고](https://jjangsungwon.tistory.com/27)
 

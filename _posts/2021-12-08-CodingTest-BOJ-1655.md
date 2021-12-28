@@ -1,5 +1,5 @@
 ---
-title: Python/heap 1655 가운데를 말해요
+title: Python/heap BOJ-1655 가운데를 말해요
 date: 2021-12-08 23:30:09
 categories:
 - CodingTest
@@ -7,7 +7,7 @@ tags:
 - heap
 ---
 
-# [Python/heap] 1655 가운데를 말해요 
+# [Python/heap] BOJ-1655 가운데를 말해요 
 
 
 
