@@ -41,7 +41,11 @@ https://www.oracle.com/kr/database/technologies/xe-downloads.html
 
 https://www.oracle.com/tools/downloads/sqldev-downloads.html
 
-<img src="SQL.assets/image-20210624170813703.png" height="300px" width="350px" align = "left">
+<img src = "https://drive.google.com/uc?export=download&id=1dkYBNscJQ4pNZg9F4edd4n1KI6EJA_jY" width="400px">
+
+
+
+
 
 [참고] 
 
@@ -109,7 +113,7 @@ entity와 entity간의 관계를 정의하는 모델링 (ERwin Tools 과 같은 
 
 *** 물리적 독립성 : 내부스키마가 변경되더라도 개념스키마는 영향 안받음
 
-![image-20210625161342646](SQL.assets/image-20210625161342646.png)
+<img src = "https://drive.google.com/uc?export=download&id=1KZB5jyonHABEQH1WIVmCJKu8Sl2T0Nl9" width="400px">
 
 
 
@@ -296,7 +300,9 @@ github에 sql script 를 push 할 경우, 인코딩 문제로 한글 깨짐현�
 
 **sqldeveloper** 실행 > 도구 > 환경설정 > 환경 > 인코딩 : UFT-8으로 변경
 
-![image-20210623124647338](SQL.assets/image-20210623124647338.png)
+<img src = "https://drive.google.com/uc?export=download&id=1v0HJFEzxbj_uIGp7ufct5ZBhOJSU0VWc" width="600px">
+
+
 
 #### SQL 성능향상을 위한 Join의 이해
 
