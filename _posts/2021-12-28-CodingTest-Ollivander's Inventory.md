@@ -5,8 +5,7 @@ categories:
 - CodingTest
 tags:
 - oracle
-- row_number
-- 순위함수
+- ROW_NUMBER
 ---
 
 # [HackerRank/Oracle] Ollivander's Inventory
