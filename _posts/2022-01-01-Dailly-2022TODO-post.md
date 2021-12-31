@@ -1,6 +1,6 @@
 ---
 title: 2022 TODO
-date: 2022-12-31 00:00:00
+date: 2022-01-01 00:00:00
 categories:
 - Daily
 ---
