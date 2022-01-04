@@ -1,6 +1,6 @@
 ---
 title: HackerRank/Oracle Print Prime Numbers
-date: 2021-12-30 00:00:01
+date: 2022-01-03 00:00:01
 categories:
 - CodingTest
 tags:
