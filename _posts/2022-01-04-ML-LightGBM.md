@@ -15,6 +15,8 @@ tags:
 - XGBoost 보다 **학습에 걸리는 시간이 적다**. 또한 **메모리사용량도 상대적으로 적음** *(소요시간 정도 : GBM > XGBoost > **LightGBM**)*
 - LightGBM이 XGBoost보다 2년 후에 만들어지다보니 XGBoost의 장점은 계승하고 단점을 보완하는 방식으로 개발됐음
 - 단점으로 10,000건 이하의 적은 데이터세트에 적용할 경우, **과적합**이 발생할 가능성 존재함
+- LightGBM의 파이썬 lightgbm 패키지내에 **파이썬래퍼 LightGBM(lightgbm)**와 사이킷런과 연동되는 **사이킷럿 래퍼 LightGBM(LGBMClassifier , LGBMRegressor)**가 존재함 
+  - 위 두가지 방법으로 LightGBM을 사용할 수 있음 
 - 일반 GBM 계열의 균형 트리 분할 방법(level wise)과 다르게 리프중심트리분할 방식(leaf wise)을 사용함
   - level wise 
     - 트리 깊이를 효과적으로 줄이기 위한 방식;<Br>최대한 균형 잡힌 트리를 유지하면서 분할하기 때문에 트리의 깊이가 최소화 될 수 있습니다. 
@@ -22,23 +24,21 @@ tags:
     - 오버피팅에 보다 더 강한 구조를 가지는 장점존재
     
     - 균형을 맞추기 위한 시간이 필요함
-    
+
       <img src = "https://drive.google.com/uc?export=download&id=1CEgPI0I2UrzxQOX3Au_EF4Z_S0Lm1O8q" width="200px" align=left>
-
-  <br>
-
-  - leaf wise
+      
+      
     
+  - leaf wise
     - 트리의 균형을 맞추지 않고, 최대 손실값(max delta loss)을 가지는 리프노드를 지속적으로 분할함
     
     - 최대 손실값을 가지는 리프노드를 지속적으로 분할해 생성된 규칙 트리는 학습을 반복할 수록 **level wise 방식보다 예측 오류 손실을 최소화** 할 수 있음
     
       <img src = "https://drive.google.com/uc?export=download&id=1Ik0IfIcjutP5JMBOJJITdzp_VmCas80f" width="200px" align=left>
+      
+      
 
-<br>
 
-- LightGBM의 파이썬 lightgbm 패키지내에 **파이썬래퍼 LightGBM(lightgbm)**와 사이킷런과 연동되는 **사이킷럿 래퍼 LightGBM(LGBMClassifier , LGBMRegressor)**가 존재함 
-  - 위 두가지 방법으로 LightGBM을 사용할 수 있음 
 
 ---
 
