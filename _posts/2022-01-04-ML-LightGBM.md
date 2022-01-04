@@ -18,10 +18,14 @@ tags:
 - 일반 GBM 계열의 균형 트리 분할 방법(level wise)과 다르게 리프중심트리분할 방식(leaf wise)을 사용함
   - level wise 
     - 트리 깊이를 효과적으로 줄이기 위한 방식;<Br>최대한 균형 잡힌 트리를 유지하면서 분할하기 때문에 트리의 깊이가 최소화 될 수 있습니다. 
+    
     - 오버피팅에 보다 더 강한 구조를 가지는 장점존재
+    
     - 균형을 맞추기 위한 시간이 필요함
     
       <img src = "https://drive.google.com/uc?export=download&id=1CEgPI0I2UrzxQOX3Au_EF4Z_S0Lm1O8q" width="200px" align=left>
+      
+      
     
   - leaf wise
     - 트리의 균형을 맞추지 않고, 최대 손실값(max delta loss)을 가지는 리프노드를 지속적으로 분할함
