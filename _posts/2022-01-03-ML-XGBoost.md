@@ -32,9 +32,11 @@ tags:
 | 자체 내장된 교차 검증          | 반복 수행 시 마다 내부적으로 학습 데이터 세트와 평가 데이터 세트에 대한 교차 검증을 수행해 최적화된 반복 수행 횟수를 가질 수 있음; 지정된 반복 횟수가 아니라 교차검증을 통한 평가 데이터 세트의 평가값이 최적화 되면 반복을 중간에 멈출수 잇는 **조기 중단 기능(early stopping)** 존재 |
 | 결손값 자체 처리               | XGBoost는 결손값을 처리할 수 있음                            |
 
+
+
 --------
 
-## Python Wrapper XGBoost Module
+## Python Wrapper XGBoost Tutorial
 
 ```python
 import xgboost as xgb
@@ -103,6 +105,18 @@ get_clf_eval(y_test,pred,pred_proba)
 ##  Parameter
 
 [파이썬 래퍼 XGBoost모듈](https://xgboost.readthedocs.io/en/stable/parameter.html)과 [사이킷런 래퍼 XGBoost 모듈](https://xgboost.readthedocs.io/en/stable/python/python_api.html)의 일부는 Naming Rule으로 인해 파라미터 명이 다르다. 
+
+----
+
+## Hyperparameter turning
+
+만약, 과적합 문제가 존재한다면 아래와 같이 적용해보자.
+
+- learning rate 을 낮추자 (0.01~0.1) <br>learning rate를 낮춘다면 num_round (n_estimators)는 반대로 높여줘야한다.
+- max_depth를 낮춘다.
+- min_child_weight를 높인다.
+- gamma 값을 높인다.
+- subsample, colsmaple_bytree를 조정해 트리가 너무 복잡하게 생성되는것을 막아 과적합 문제에 도움이 될수있음
 
 --------------------
 
