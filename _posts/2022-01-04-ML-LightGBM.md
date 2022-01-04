@@ -24,7 +24,7 @@ tags:
     - 오버피팅에 보다 더 강한 구조를 가지는 장점존재
     
     - 균형을 맞추기 위한 시간이 필요함
-
+    - 
       <img src = "https://drive.google.com/uc?export=download&id=1CEgPI0I2UrzxQOX3Au_EF4Z_S0Lm1O8q" width="200px" align=left>
       
       
@@ -33,7 +33,7 @@ tags:
     - 트리의 균형을 맞추지 않고, 최대 손실값(max delta loss)을 가지는 리프노드를 지속적으로 분할함
     
     - 최대 손실값을 가지는 리프노드를 지속적으로 분할해 생성된 규칙 트리는 학습을 반복할 수록 **level wise 방식보다 예측 오류 손실을 최소화** 할 수 있음
-    
+    - 
       <img src = "https://drive.google.com/uc?export=download&id=1Ik0IfIcjutP5JMBOJJITdzp_VmCas80f" width="200px" align=left>
       
       
