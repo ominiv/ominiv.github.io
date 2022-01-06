@@ -5,6 +5,7 @@ categories:
 - ML
 tags:
 - LightGBM
+- Ensemble
 ---
 
 # [ML/Ensemble] LightGBM

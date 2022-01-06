@@ -5,6 +5,7 @@ categories:
 - ML
 tags:
 - XGBoost
+- Ensemble
 ---
 
 # [ML/Ensemble] XGBoost

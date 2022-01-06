@@ -5,6 +5,7 @@ categories:
 - ML
 tags:
 - RandomForest
+- Ensemble
 ---
 
 # [ML/Ensemble] RandomForest
