@@ -24,6 +24,7 @@ tags:
 
 - 회귀 결정식을 아래와 같이 설정하자.<Br>$y = 1+2x_1+3x_1^2+4x_2^3$
 - 일차 단항식 계수 피처는 2개였지만 3차 다항식 polynomial 변환 이후에는 다항식 계수 피처가 10개로 늘어난다. <br>원래 다항식계수와는 약간 차이가 있지만 근사하는 것으로 확인된다. <br>**이처럼 사이킷 런은 PolynomialFeatures로 피처를 변환한 후 LinearRegression클래스로 다항식을 구현한다.**
+
 ```python
 def polynomial_func(x):
     y = 1+ 2*x[:,0] +3*x[:,0]**2 + 4*x[:,1]**3
@@ -54,6 +55,7 @@ print('Polynomial 회귀 shape \n', model.coef_.shape)
 #  (10,)
 
 ```
+
 sklearn의 Pipeline 객체를 이용해 한번에 다항회귀를 구현할 수 있다. (더편함)
 
 ```python
@@ -80,12 +82,12 @@ print('Polynomial 회귀계수 \n', np.round(model.named_steps['linear'].coef_,2
 ---
 
 ## Underfitting and Overfitting
-다항회귀는 피처의 직선적 관계가 아닌 복잡한 다항관계를 모델링 할 수 있다.<br> *(당연하게도 차수가 높아질수록 복잡한 피처간의 모델링이 가능하다.)* <Br>하지만 차수(degree)가 높아질수록 학습데이터에만 맞춘 학습이 이루어져 정작 테스트 데이터 환경에서는 예측성능이 떨어지도 한다. <br>즉, 차수가 높아질수록 과적합 문제가 크게 발생한다.
+다항회귀는 피처의 직선적 관계가 아닌 복잡한 다항관계를 모델링 할 수 있다.<br> *(당연하게도 차수가 높아질수록 복잡한 피처간의 모델링이 가능하다.)* <Br>하지만 차수(degree)가 높아질수록 학습데이터에만 맞춘 학습이 이루어져 정작 테스트 데이터 환경에서는 예측성능이 떨어지도 한다. 즉, 차수가 높아질수록 과적합 문제가 크게 발생한다.
 
 다항 회귀를 이용했을때 과소적합과 과적합의 문제를 잘 보여주는 예제를 직접 실행해보자. [source link](https://github.com/ominiv/Practice_ML/blob/master/Practice/polynomial%20regression.ipynb)<Br>
 아래 결과를 보면 `Degree1` : underfitting , `Degree4` : trade off fit , `Degree15` : overfitting 이라고 해석할 수 있다.
 
-<img src = "https://drive.google.com/uc?export=download&id=1PZc2Z8fjIeYFR2TTnbz533VH0DQdpDUS" width="450px">
+<img src = "https://drive.google.com/uc?export=download&id=1PZc2Z8fjIeYFR2TTnbz533VH0DQdpDUS" width="650px">
 
 ---
 
