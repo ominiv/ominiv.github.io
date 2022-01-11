@@ -10,7 +10,6 @@ tags:
 ---
 
 # [ML/Regression] LinearRegression
-
 - sklearn의 linear_models 모듈은 다양한 선형기반 회귀를 클래스로 구현해 제공한다. [link](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.linear_model)
 - 오늘은 다양한 선형기반 회귀들 중 **규제가 적용되지 않는 Linear Regression**에 대해 알아보자
 

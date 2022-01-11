@@ -10,11 +10,10 @@ tags:
 ---
 
 # [ML/Regression] 회귀 평가 지표
-
 회귀 평가를 위한 지표는 실제값과 회귀 예측값의 차이를 기반으로 한 지표가 중심이다. <Br>대부분 잔차의 절대값 평균과 제곱을 이용한다. <Br> 회귀의 성능을 평가하는 지표는 다음과 같다.
 
 | 평가지표 |  설명  | 수식 |
-| ---------| ---------| ---------|
+| -----| -------------| ---------|
 | MAE |  mean absolute Error; 실제값과 예측값이 차이의 절대값의 평균 | $MAE = \frac{1}{n}\sum_{i=1}^{n}(\vert Y_i - \widehat{Y_i}\vert)$ |
 | MSE |  mean squred Error; 실제값과 예측값의 차이의 제곱해 평균  | $MSE = \frac{1}{n}\sum_{i=1}^{n}(Y_i - \widehat{Y_i})^2$ |
 | RMSE|  sqrt(MSE) | $RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(Y_i - \widehat{Y_i})^2}$ |
