@@ -6,6 +6,9 @@ categories:
 - ML
 tags:
 - Regression
+- Ridge
+- Lasso
+- ElasticNet
 ---
 
 # [ML/Regression] Regularized Linear Regression : Ridge / Lasso / Elasticnet
