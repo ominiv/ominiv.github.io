@@ -10,7 +10,7 @@ tags:
 
 # [ML] Regression
 
-<img src = "https://drive.google.com/uc?export=download&id=14sxVp3NofCj-09msKNjQ3VrBkGOPTAxf" width="450px">
+<img src = "https://drive.google.com/uc?export=download&id=1tqZueE71VITvrkAes8Qfj9PtF6Ql6XOM" width="550px">
 
 - 회귀는 여러개의 독립변수와 하나의 종속변수 간의 상관관계를 모델링하는 기법이다. 
 - $y=w_0+w_1X_1 + w_2X_2 + w_3X_3$ 이라는 선형회귀식을 예로 들면<br> $y$는 종속변수 $X_n$은 독립변수를 의미한다. $W_n$는 독립변수의 값에 영향을 미치는 회귀계수이다.
