@@ -10,7 +10,7 @@ tags:
 
 ---
 
-# [ML/FeatureExtraction] LDA(Linear Discrimnant Anaylsis)
+# [ML/FeatureExtraction] LDA(Linear Discriminant Anaylsis)
 LDA는 선형 판별 분석법으로 불리며 Classification과 Dimension Reduction을 사용하는 알고리즘이다.<Br>지도학습의 분류에서 사용하기 쉽도록 개별 클래스를 분별할 수 있는 기준을 최대한 유지 하면서 차원을 축소한다.<br>PCA는 데이터의 변동성이 가장 큰 축을 찾았지만, **LDA는 입력 데이터의 결정값 클래스를 최대한을 분리**할 수 있는 축을 찾는다.
 
 **LDA는 특정 공간상에서 클래스 분리를 최대화하는 축을 찾기 위해 클래스간 분산은 최대한 크게 가져가고 클래스 내부 분산은 최대한 작게 가져가는 방식이다.**<Br> 아래 그림처럼 데이터를 특정 한 축에 사영한 후 두 범주를 잘 구분할 수 있는 직선을 찾는걸 목표로 한다.

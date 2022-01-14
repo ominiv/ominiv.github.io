@@ -30,9 +30,8 @@ $$
 
 ## 특이값 분해 활용 
 
-> 특이값 분해는 분해되는 과정보다 분해된 행렬을 다시조합하는 과정에서 그 응용력이 빛을 발한다.<b>기존의 $U,\sum,V^T$로 분해되어있던 $A$행렬을 특이값 p개 만을 이용해 $A'$라는 행렬로 부분복원을 할 수 있다. [reference](https://angeloyeo.github.io/2019/08/01/SVD.html)
+특이값 분해는 분해되는 과정보다 분해된 행렬을 다시조합하는 과정에서 그 응용력이 빛을 발한다.<b>기존의 $U,\sum,V^T$로 분해되어있던 $A$행렬을 특이값 p개 만을 이용해 $A'$라는 행렬로 부분복원을 할 수 있다. 특이값의 크기에 따라 $A$의 정보량이 결정되므로 **몇개의 큰 특이값을 가지고도 충분히 유용한 정보를 유지**할 수 있다. [reference](https://angeloyeo.github.io/2019/08/01/SVD.html)
 
-특이값의 크기에 따라 $A$의 정보량이 결정되므로 몇개의 큰 특이값을 가지고도 충분히 유용한 정보를 유지할 수 있다. 
 
 <img src=' https://drive.google.com/uc?export=download&id=1QSlTSj02NesLkcr2WqMmd6nDpafmrQuP' width=500>
 
