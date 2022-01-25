@@ -10,7 +10,8 @@ tags:
 
 # [ML/Ensemble] LightGBM
 
-<img src = "https://drive.google.com/uc?export=download&id=1c8mphxmfI1CjmxCXztcDNv5JhR4vGj5E" width="600px">
+<img src = "https://drive.google.com/uc?export=download&id=1nkQz3WuMyRURP8hbftgXKVjv3nM-M0EF" width="600px">
+
 
 - LightGBM는 앙상블의 부스팅 기법의 한 종류
 - XGBoost 보다 **학습에 걸리는 시간이 적다**. 또한 **메모리사용량도 상대적으로 적음** *(소요시간 정도 : GBM > XGBoost > **LightGBM**)*

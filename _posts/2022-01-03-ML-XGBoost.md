@@ -10,7 +10,8 @@ tags:
 
 # [ML/Ensemble] XGBoost
 
-<img src = "https://drive.google.com/uc?export=download&id=1c8mphxmfI1CjmxCXztcDNv5JhR4vGj5E" width="600px">
+<img src = "https://drive.google.com/uc?export=download&id=1nkQz3WuMyRURP8hbftgXKVjv3nM-M0EF" width="600px">
+
 
 - XGBoost는 앙상블의 부스팅 기법의 한 종류
 - 분류에 있어서 일반적으로 다른 머신러닝보다 뛰어난 예측을 보임
