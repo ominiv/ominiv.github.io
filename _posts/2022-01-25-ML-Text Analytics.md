@@ -23,7 +23,7 @@ tags:
 2. 피처 벡터화/추출 <br>사전 준비 작업으로 가공된 텍스트에서 피처를 추출하고 여기 벡터값을 할당한다. 대표적인 방법은 BOW, Word2Vec 존재 *(BOW는 count 기반과 TF-IDF기반 벡터화가 존재함)*
 3. ML 모델 수립 및 학습/예측/평가 <br>피처 벡터화된 데이터 세트에 ML 모델을 적용해 학습/예측 및 평가를 수행한다.
 
-<img src='https://drive.google.com/uc?export=download&id=1tzB9fHoP-KgZ4SYRYUX-stLHF4_hy6cK' width=600>
+<img src='https://drive.google.com/uc?export=download&id=1tzB9fHoP-KgZ4SYRYUX-stLHF4_hy6cK'>
 
 ---
 
@@ -88,6 +88,7 @@ print(all_tokens)
 ```
 
 ---
+
 #### 어간 추출 (Stemming) 표제어 추출 (Lemmatization)
 두 기능 모두 원형 단어를 찾는 다는 목적은 유사하지만, Lemmatization이 Stemming보다 정교하고 의미론적인 기반에서 단어의 원형을 찾는다. 
 **Lemmatization의 경우 품사를 input으로 받는다.**
