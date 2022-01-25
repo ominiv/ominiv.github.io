@@ -70,6 +70,7 @@ result = tokenize_text(text=text_sample)
 ---
 #### 필터링 (Filtering) / Stop word 제거 / 철자 수정
 - Stop word 제거<br>Stop word는 분석에 큰 의미가 없는 단어를 뜻한다. *(ex, is, the, a ...etc)*
+
 ```python
 import nltk 
 nltk.download('stopwords')
