@@ -25,7 +25,11 @@ BOW 모델에서 피쳐벡터화를 한다는 것은 모든 문서에서 모든 
 일반적으로 BOW의 피처벡터화는 두 가지 방식이 있다.<br>문서마다 텍스트 길이가 길고 문서개수가 많은경우 TF-IDF방식을 사용하는게 더 낫다.
 
 - 카운트 기반의 벡터화 <br>단어 피처에 값을 부여할때 각 문서에서 해당 단어가 나타나는 횟수를 부여하는 경우다.
-- TF-IDF(Term Frequency - Inverse Document Frequency) 기반의 벡터화 <br>개별 문서에서 자주 나타나는 단어에 높은 가중치를 주되 모든 문서에서 전반적으로 자주 나타나는 단어에 대해서는 페널티를 주는 방식으로 값을 부여한다.*(전체적으로 자주 나타나는 단어의 경우, 범용적으로 자주 사용되는 단어일 가능성이 높다.)*<br>모든 문서에서 반복적으로 자주 발생하는 단어에 대해 페널티를 부여하는 방식으로 단어에 대한 가중치의 균형을 맞춘다.<br><img src = 'https://drive.google.com/uc?export=download&id=1swfeoGpwDgBEger3SxrzLmzAkvwPIEFU' width=500><br>$TF_i$ = 개별 문서에서의 단어 i 빈도 / $DF_i$ = 단어 i를 가지고있는 문서개수 / $N$ = 전체 문서 개수
+- TF-IDF(Term Frequency - Inverse Document Frequency) 기반의 벡터화 <br>개별 문서에서 자주 나타나는 단어에 높은 가중치를 주되 모든 문서에서 전반적으로 자주 나타나는 단어에 대해서는 페널티를 주는 방식으로 값을 부여한다.*(전체적으로 자주 나타나는 단어의 경우, 범용적으로 자주 사용되는 단어일 가능성이 높다.)*<br>모든 문서에서 반복적으로 자주 발생하는 단어에 대해 페널티를 부여하는 방식으로 단어에 대한 가중치의 균형을 맞춘다.
+
+    <img src = 'https://drive.google.com/uc?export=download&id=1swfeoGpwDgBEger3SxrzLmzAkvwPIEFU' width=500><br>
+
+    $TF_i$ = 개별 문서에서의 단어 i 빈도 / $DF_i$ = 단어 i를 가지고있는 문서개수 / $N$ = 전체 문서 개수
 
     $$
     TF-IDF_i = TF_i * log\frac{N}{DF_i} 
