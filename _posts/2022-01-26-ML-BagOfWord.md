@@ -29,7 +29,8 @@ BOW 모델에서 피쳐벡터화를 한다는 것은 모든 문서에서 모든 
 
     <img src = 'https://drive.google.com/uc?export=download&id=1swfeoGpwDgBEger3SxrzLmzAkvwPIEFU' width=500><br>
 
-    $TF_i$ = 개별 문서에서의 단어 i 빈도 / $DF_i$ = 단어 i를 가지고있는 문서개수 / $N$ = 전체 문서 개수
+
+    $TF_i$ = 개별 문서에서의 단어 i 빈도 , $DF_i$ = 단어 i를 가지고있는 문서개수 , $N$ = 전체 문서 개수
 
     $$
     TF-IDF_i = TF_i * log\frac{N}{DF_i} 
