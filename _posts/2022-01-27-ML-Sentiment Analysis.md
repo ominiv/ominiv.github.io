@@ -23,20 +23,20 @@ tags:
 Lexicon은 Positive, Negative 감성의 정도를 의미하는 감성지수(Polarity score)를 가지고 있다. <br>감성지수는 주변단어, 문맥, Part of Speech 를 참고해 결정된다. 
 
 대표적인 감성사전은 다음과 같다.
-- WordNet<br>다양한 상황에서 같은 어휘라도 다르게 사용되는 어휘의 semantic 정보를 제공한다. 이를위해 품사로 구별된 단어를 Synset(Set of cognitive synonyms;동의어세트)이라는 개념을 이용해 표현한다.
+- **WordNet**<br>다양한 상황에서 같은 어휘라도 다르게 사용되는 어휘의 semantic 정보를 제공한다. 이를위해 품사로 구별된 단어를 Synset(Set of cognitive synonyms;동의어세트)이라는 개념을 이용해 표현한다.
 
-- SentiWordNet <br>WordNet의 Synset 개념을 감성분석에 적용한 것이다.
+- **SentiWordNet** <br>WordNet의 Synset 개념을 감성분석에 적용한 것이다.
 
-    ### Process
+    **Process**
     1. 문서를 문장 단위로 분해
     2. 문장을 단어로 분해 후 토큰화&품사태깅
     3. 품사가 붙여진 단어를 기반으로 synset객체와 senti_synset 객체 생성
     4.  senti_synset에서 positive, negative 지수를 합산해 특정 threshold기준으로 긍정/부정 감성 판별
 
 
-- VADER <br> 소셜미디어 텍스트에 대해 감성분석을 제공하기 위한 패키지다.<br>비교적 빠른 속도로 인해 다용량 텍스트 데이터에 이용된다.
+- **VADER** <br> 소셜미디어 텍스트에 대해 감성분석을 제공하기 위한 패키지다.<br>비교적 빠른 속도로 인해 다용량 텍스트 데이터에 이용된다.
 
-- Pattern <br>예측성능측면에서 가장 주목받고 있는데 python 3 호환안됨...
+- **Pattern** <br>예측성능측면에서 가장 주목받고 있는데 python 3 호환안됨...
 
 ---
 
