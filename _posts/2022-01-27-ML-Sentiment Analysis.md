@@ -26,6 +26,7 @@ Lexicon은 Positive, Negative 감성의 정도를 의미하는 감성지수(Pola
 - WordNet<br>다양한 상황에서 같은 어휘라도 다르게 사용되는 어휘의 semantic 정보를 제공한다. 이를위해 품사로 구별된 단어를 Synset(Set of cognitive synonyms;동의어세트)이라는 개념을 이용해 표현한다.
 
 - SentiWordNet <br>WordNet의 Synset 개념을 감성분석에 적용한 것이다.
+
     ### Process
     1. 문서를 문장 단위로 분해
     2. 문장을 단어로 분해 후 토큰화&품사태깅
@@ -40,7 +41,7 @@ Lexicon은 Positive, Negative 감성의 정도를 의미하는 감성지수(Pola
 ---
 
 ## Unsupervised Sentiment Analysis Tutorial
-### SentiWordNet을 이용한 영화 감상평 감성분석
+### SentiWordNet을 이용한 감성분석
 문장 - 단어토큰 - 품사 - 감성지수 계산을 진행한다. 
 
 ```python

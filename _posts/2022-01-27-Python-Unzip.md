@@ -1,5 +1,5 @@
 ---
-title: Python Unzip (zipfile)
+title: Python Unzip
 date: 2022-01-27 00:00:01
 categories:
 - Python
@@ -7,7 +7,7 @@ tags:
 - unzip
 ---
 
-# Python Unzip 하는 방법
+# [Python] Unzip 하는 방법
 
 ```python
 zip_file_path = ['path/file1.tsv.zip','path/file2.tsv.zip','path/file3.tsv.zip'] # zip 파일 경로
