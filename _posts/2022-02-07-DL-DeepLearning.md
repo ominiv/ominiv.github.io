@@ -49,7 +49,8 @@ tags:
 
 ---
 ### 딥러닝 vs. 머신러닝
-||Deep Learning|Machine Learning|
+
+| |Deep Learning|Machine Learning|
 |-|-|-|
 |feature engineenring|필요없음|필요함|
 |Hardware dependencies|고사양 필수|저사양에서도 실행 가능|
