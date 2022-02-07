@@ -16,7 +16,7 @@ tags:
 
 
 <details>
-<summary>인공지능과 머신러닝, 딥러닝 연관성을 살펴보자. ✔ </summary>
+<summary> ▼ 인공지능과 머신러닝, 딥러닝 연관성을 살펴보자. ✔ </summary>
 <div markdown="1">
 
 - AI (Artificial Intelligence)<br>한 줄로 말하면 **사람이 수행하는 지능적인 작업을 자동화하기 위한 방법**이다. AI는 머신러닝과 딥러닝을 포괄하는 부분이며, 학습과정이 없는 방법도 포함한다.<br>딥러닝 $\in$ 머신러닝 $\in$ AI
@@ -29,13 +29,13 @@ tags:
 
 ---
 ## 딥러닝 작동원리 
-1. 층에서 입력데이터가 처리되는 상세내용은 층의 가중치에 저장되어있다. <br>학습은 주어진 입력을 정확한 타깃에 매핑하기 위해 **신경망의 모든 층에 있는 가중치 값을 찾는 것**을 의미한다<br><p align="center"><img src='https://drive.google.com/uc?export=download&id=1bPImRYGR5rGOdo9RozpCLiVizaZIgNVW' width=250 ></p>
+1. 층에서 입력데이터가 처리되는 상세내용은 층의 가중치에 저장되어있다. <br>학습은 주어진 입력을 정확한 타깃에 매핑하기 위해 **신경망의 모든 층에 있는 가중치 값을 찾는 것**을 의미한다<br><img src='https://drive.google.com/uc?export=download&id=1bPImRYGR5rGOdo9RozpCLiVizaZIgNVW' width=250 >
 
 2. 신경망의 출력을 제어하려면 출력이 기대하는것 보다 얼마나 벗어났는지를 측정해야한다.<br>이는 신경망의 손실함수 또는 목적함수를 활용한다. <br>손실함수를 통해 예측값과 실제값의 차이를 점수로 계산한다.
 
-3. 손실점수를 피드백 신호로 사용하여 현재 샘플의 손실점수가 감소되는 방향으로 가중치 값을 수정한다. 위 과정을 옵티마이저(*Backpropagation algorithm*)가 담당한다. <br><p align="center"><img src='https://drive.google.com/uc?export=download&id=1IDITf-YL7jUvHAwPT0Yql8LLDnzQDO57' width=400></p>
+3. 손실점수를 피드백 신호로 사용하여 현재 샘플의 손실점수가 감소되는 방향으로 가중치 값을 수정한다. 위 과정을 옵티마이저(*Backpropagation algorithm*)가 담당한다. <br><img src='https://drive.google.com/uc?export=download&id=1IDITf-YL7jUvHAwPT0Yql8LLDnzQDO57' width=400>
 
-- 학습 초반에는 네트워크 가중치가 랜덤한 값으로 할당되어 손실점수가 높을 수 있다. 하지만 네트위크가 모든 샘플을 처리하면서 가중치가 조정되어 손실점수가 점차 감소한다. 이를 training loop라 한다. <br>일반적으로 수천개의 샘플에서 수십번 반복하면 target과 가까운 출력을 만드는 모델이된다.
+4. 학습 초반에는 네트워크 가중치가 랜덤한 값으로 할당되어 손실점수가 높을 수 있다. 하지만 네트위크가 모든 샘플을 처리하면서 가중치가 조정되어 손실점수가 점차 감소한다. 이를 training loop라 한다. <br>일반적으로 수천개의 샘플에서 수십번 반복하면 target과 가까운 출력을 만드는 모델이된다.
 
 ---
 ## 딥러닝 특징
