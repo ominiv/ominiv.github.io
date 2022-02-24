@@ -1,5 +1,5 @@
 ---
-title: Python/DFS BOJ-2589 보물섬
+title: Python/BFS BOJ-2589 보물섬
 date: 2022-02-24 00:00:01
 categories:
 - CodingTest
@@ -8,7 +8,7 @@ tags:
 - 오답노트
 ---
 
-# [Python/DFS] BOJ-2589 보물섬
+# [Python/BFS] BOJ-2589 보물섬
 
 📌[문제링크](https://www.acmicpc.net/problem/2589) 
 
