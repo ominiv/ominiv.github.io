@@ -6,6 +6,7 @@ categories:
 tags:
 - oracle
 - SubQuery
+- 오답노트
 ---
 
 # [HackerRank/Oracle] 15 Days of Learning SQL
