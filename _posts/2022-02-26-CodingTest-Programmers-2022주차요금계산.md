@@ -4,7 +4,7 @@ date: 2022-02-26 00:00:01
 categories:
 - CodingTest
 tags:
-
+- 프로그래머스
 ---
 
 # [Python/프로그래머스] 2022 주차요금계산
@@ -55,6 +55,3 @@ def solution(fees, records):
     return answer
 
 ```
----
-
-## 다른사람 풀이
