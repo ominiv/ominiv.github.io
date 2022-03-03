@@ -5,6 +5,7 @@ categories:
 - CodingTest
 tags:
 - 오답노트
+- 프로그래머스
 ---
 
 # [Python/프로그래머스] 2022 신고 결과 받기
