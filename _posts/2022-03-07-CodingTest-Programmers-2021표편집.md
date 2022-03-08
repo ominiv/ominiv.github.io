@@ -1,6 +1,6 @@
 ---
 title: Python/프로그래머스 2021 표 편집
-date: 2021-03-07 00:00:01
+date: 2022-03-07 00:00:01
 categories:
 - CodingTest
 tags:
